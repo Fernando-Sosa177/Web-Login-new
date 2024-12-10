@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-decoration: none;
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50rem;
+    min-height: 100vh;
     background: url( "img/paisaje-digital-en-atardecer-5846.webp") no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,23 +45,21 @@ text-align: center;
     font-size: 16px;
     color: #ffff;
 }
-.input-box input::placeholder{
-    color: #ffff;
-    
-}
+.input-box input::placeholder{color: #ffff;}
 .input-box i {
     position: absolute;
     right: 15.6rem ;
     padding: .9rem;
-    }
+}
 .wrapper .remember-forgot{
     display: flex;
     justify-content: space-between;
     margin-inline: 0.4rem;
+    font-size: .9rem;
 }
 .remember-forgot label input {
     accent-color: #ffff;
-    margin-right: .3rem;
+    margin-inline-end:.4rem;
 }
 .remember-forgot a {
     text-decoration: none;
@@ -87,10 +86,10 @@ text-align: center;
     text-align: center;
     margin: 0.3rem 0 1.8rem;
 }
-.register-link p a {
+.register-link a {
     text-decoration: none;
     color:#ffff;
     font-weight: 600;
 }
-.register-link p a:hover{ text-decoration: underline;}
+.register-link a:hover{ text-decoration: underline;}
 
